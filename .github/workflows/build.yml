@@ -60,7 +60,7 @@ jobs:
         continue-on-error: false
 
       - name: Generating `macOS` Cursor Theme
-        run: make windows WIN_SIZE=24
+        run: make windows WIN_SIZE=28
         continue-on-error: false
 
       - name: Uploading `macOSBigSur` Windows Theme
